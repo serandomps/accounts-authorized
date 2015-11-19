@@ -1,1 +1,1 @@
-# accounts-authorized
+# accounts-authorize

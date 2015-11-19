@@ -1,0 +1,15 @@
+<div class="accounts-authorized panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Redirecting</h3>
+    </div>
+    <div class="panel-body">
+        <form role="form" action="{options.location}" method="post">
+            <input type="hidden" name="id" value="{user.tid}">
+            <input type="hidden" name="username" value="{user.username}">
+            <input type="hidden" name="access_token" value="{user.access}">
+            <input type="hidden" name="refresh_token" value="{user.refresh}">
+            <input type="hidden" name="expires_in" value="{user.expires}">
+            <button type="submit" class="btn btn-default redirect">Redirect</button>
+        </form>
+    </div>
+</div>
